@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="../login-tec/src/output.css" rel="stylesheet">
   <link href="../login-tec/src/estilos.css" rel="stylesheet">
+  <link rel="stylesheet" href="../src/estilos.css">
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@^2.0/dist/tailwind.min.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,15 +14,15 @@
 </head>
 
 <body>
-    <img class="wave" src="img/wave.png">
+    <img class="wave" src="../img/wave.png">
         <div class="container">
             <div class="img">
-                <img src="../login-tec/img/Imagen2.png">
+                <img src="../img/Imagen2.png">
             </div>
             <div class="login-content">
                 <form method="post" action="">
                     <div class="flex items-center justify-center">
-                        <img class="" src="img/avatar.svg">
+                        <img class="" src="../img/avatar.svg">
                     </div>
                     <h2 class="title">BIENVENIDO</h2>
                     <div class="input-div one">
