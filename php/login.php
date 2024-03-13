@@ -55,9 +55,9 @@
         </div>
 
         <script src="js/fontawesome.js"></script>
-   <script src="js/main.js"></script>
-   <script src="js/main2.js"></script>
-   <script src="js/jquery.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/main2.js"></script>
+        <script src="js/jquery.min.js"></script>
 </body>
 
 </html>
