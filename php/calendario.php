@@ -15,14 +15,15 @@
         <article class="articleAll">
             <section class="section-nav">
                 <div class="div1">
-                    <a href="http://localhost:8000/php/estudiantes.php"><i class="fa-solid fa-user iconUser"></i></a>
-                    <a href="http://localhost:8000/php/calendario.php"><i class="fa-solid fa-calendar iconCalendario"></i></a>
+                    <a href="estudiantes.php"><i class="fa-solid fa-user iconUser"></i></a>
+                    <a href="calendario.php"><i class="fa-solid fa-calendar iconCalendario"></i></a>
                 </div>
                 <div class="div2">
-                    <i class="fa-solid fa-gear"></i>
+                    <a href=""><i class="fa-solid fa-gear"></i></a>
                 </div>
             </section>
             <section class="section-container">
+            <a href="login.php"><p class="exit">Cerrar Sesión</p></a>
                 <div class="container">
                     <div class="calendar">
                         <div class="header">
@@ -55,7 +56,7 @@
                 </div>
                 <div class="datesCits">
                     <article class="list">
-                        <h3>Citas registradas</h3>
+                        <h3>Historial</h3>
                     </article>
                 </div>
             </section>

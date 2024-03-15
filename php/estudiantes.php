@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/c91ca5f5f4.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../style/styleOptions.css">
-    <!-- <link rel="stylesheet" href="style.css"> -->
     <title>Document</title>
 </head>
 
@@ -14,22 +13,22 @@
     <main>
         <article class="articleAll">
             <section class="section-nav">
-                <div class="div1">
-                    <i class="fa-solid fa-user"></i>
-                    <i class="fa-solid fa-calendar"></i>
+            <div class="div1">
+                    <a href="estudiantes.php"><i class="fa-solid fa-user iconUser"></i></a>
+                    <a href="calendario.php"><i class="fa-solid fa-calendar iconCalendario"></i></a>
                 </div>
                 <div class="div2">
-                    <i class="fa-solid fa-gear"></i>
+                    <a href=""><i class="fa-solid fa-gear"></i></a>
                 </div>
             </section>
             <section class="section-container">
-                <button class="exit">closed</button>
+                <a href="login.php"><p class="exit">Cerrar Sesión</p></a>
                 <article class="general">
                     <h2>Información general</h2>
-                    <figure>
-                        <i class="fa-solid fa-user"></i>
-                    </figure>
-                    <section>
+                    <section class="info">
+                        <figure>
+                            <i class="fa-solid fa-user"></i>
+                        </figure>
                         <p>Nombre: Yeudiel Esteban Richard Perez</p>
                         <p>CURP: RIPY980914HTSCRD03</p>
                         <p>Fecha de nacimiento: 14 de Septiembre de 1998</p>
@@ -39,7 +38,7 @@
                 <article class="container-article2">
                     <section class="school">
                         <h2>Información escolar</h2>
-                        <section>
+                        <section class="info">
                             <p>Nº de control: 19690148</p>
                             <p>Estatus: AEE / Activo con especiales</p>
                             <p>Carrera: Ingenieria En Sistemas Computacionales / 42 / Escolarizado</p>
@@ -48,7 +47,7 @@
                     </section>
                     <section class="contact">
                         <h2>Información de contacto</h2>
-                        <section>
+                        <section class="info">
                             <p>Calle y número: plaza eoliza #313</p>
                             <p>Colonia: carmen 3</p>
                             <p>Municipio: ciudad valles</p>
