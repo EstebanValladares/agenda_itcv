@@ -1,3 +1,10 @@
+<?php
+session_start();
+if (empty($_SESSION["id"])){
+    header("location: index.php");
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -23,7 +30,7 @@
                 </div>
             </section>
             <section class="section-container">
-            <a href="login.php"><p class="exit">Cerrar Sesión</p></a>
+            <a href="cerrar_sesion.php"><p class="exit">Cerrar Sesión</p></a>
                 <div class="container">
                     <div class="calendar">
                         <div class="header">
