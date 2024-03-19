@@ -68,6 +68,21 @@ if (empty($_SESSION["id"])){
                 </div>
             </section>
         </article>
+        <article class="formulario">
+            <button class="cerrar"><i class="fa-solid fa-x"></i></button>
+            <form>
+                <h3>Nueva cita</h3>
+                <input type="text" placeholder="nombre">
+                <input type="text" placeholder="apellido">
+                <input type="text" placeholder="carrera">
+                <input type="text" placeholder="semestre">
+                <input type="text" placeholder="fecha (xxxx-xx-xx)">
+                <button class="agendar">Agendar</button>
+            </form>
+            <section>
+                <img src="../img/imagen2.png" alt="">
+            </section>
+        </article>
     </main>
 </body>
     <script src="../js/app.js"></script>

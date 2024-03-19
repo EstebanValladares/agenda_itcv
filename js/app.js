@@ -3,6 +3,9 @@ const daysContainer = document.querySelector(".days"),
     prevBtn = document.querySelector(".prev-btn"),
     month = document.querySelector(".month"),
     todayBtn = document.querySelector(".today-btn");
+formularioFlotante = document.querySelector('.new_date');
+formularioPhp = document.querySelector('.formulario');
+cerrarForm = document.querySelector('.cerrar');
 
 const months = [
     "ENERO",
@@ -96,3 +99,10 @@ function hideTodayBtn() {
         todayBtn.style.display = "flex";
     }
 }
+
+formularioFlotante.addEventListener('click', () => {
+    formularioPhp.style.display = 'flex';
+});
+cerrarForm.addEventListener('click', () => {
+    formularioPhp.style.display = 'none';
+})

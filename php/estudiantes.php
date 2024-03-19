@@ -1,3 +1,12 @@
+<?php
+session_start();
+if (empty($_SESSION["id"])){
+    header("location: index.php");
+}
+$nombre = $_SESSION["nombre"];
+$apellidos = $_SESSION["apellido"];
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -29,7 +38,9 @@
                         <figure>
                             <i class="fa-solid fa-user"></i>
                         </figure>
-                        <p>Nombre: Yeudiel Esteban Richard Perez</p>
+                        <p>Nombre: <?php
+                        echo "$nombre " . " $apellidos"; 
+                        ?> </p>
                         <p>CURP: RIPY980914HTSCRD03</p>
                         <p>Fecha de nacimiento: 14 de Septiembre de 1998</p>
                         <p>Correo electrónico: esteban1057deluxe@gmsil.com</p>
