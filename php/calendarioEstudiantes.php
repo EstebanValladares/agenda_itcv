@@ -3,6 +3,7 @@ session_start();
 if (empty($_SESSION["id"])){
     header("location: index.php");
 }
+
 ?>
 
 <!DOCTYPE html>
@@ -23,7 +24,7 @@ if (empty($_SESSION["id"])){
             <section class="section-nav">
                 <div class="div1">
                     <a href="estudiantes.php"><i class="fa-solid fa-user iconUser"></i></a>
-                    <a href="calendario.php"><i class="fa-solid fa-calendar iconCalendario"></i></a>
+                    <a href="calendarioEstudiantes.php"><i class="fa-solid fa-calendar iconCalendario"></i></a>
                 </div>
                 <div class="div2">
                     <a href=""><i class="fa-solid fa-gear"></i></a>
@@ -64,6 +65,8 @@ if (empty($_SESSION["id"])){
                 <div class="datesCits">
                     <article class="list">
                         <h3>Historial</h3>
+                        <p></p>
+                        <p>holaa </p>
                     </article>
                 </div>
             </section>

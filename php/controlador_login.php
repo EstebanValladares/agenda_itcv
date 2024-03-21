@@ -9,7 +9,7 @@ if (!empty($_POST["btningresar"])){
             $_SESSION["id"]=$datos->id;
             $_SESSION["nombre"]=$datos->nombres;
             $_SESSION["apellido"]=$datos->apellidos;
-            header("location: ../php/calendario.php");
+            header("location: ../php/calendarioEstudiantes.php");
         }else{
             echo '<div class="bg-red-200 w-full border-2 border-red-300 rounded-sm text-gray-500 mt-5 p-1">Usuario o contrasena incorrectos</div>';
         }

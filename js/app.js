@@ -38,7 +38,6 @@ function renderCalendar() {
     const prevLastDayDate = prevLastDay.getDate();
     const nextDays = 7 - lastDayIndex - 1;
     month.innerHTML = `${months[currentMonth]} ${currentYear}`;
-
     let days = "";
 
     for (let x = firstDay.getDay(); x > 0; x--) {
@@ -105,4 +104,8 @@ formularioFlotante.addEventListener('click', () => {
 });
 cerrarForm.addEventListener('click', () => {
     formularioPhp.style.display = 'none';
-})
+});
+
+document.addEventListener('DOMContentLoaded', (event) => {
+
+});
